@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./scipt.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div id="winner"></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="type-div">
+                <select name="type" id="type-1">
+                    <option value="fire">Fire</option>
+                    <option value="water">Water</option>
+                    <option value="wind">Wind</option>
+                </select>
+            </div>
+            <div class="creature">
+                <img src="./454.png" alt="codemon2">
+            </div>
+            <div class="name">Codemon 1</div>
+            <div class="hp">HP: <span id="hp-1">100</span></div>
+            <div class="attack">
+                <input type="number" id="attack-1" value="10" min="0" max="15">
+            </div>
+        </div>
+        <div class="col">
+            <div class="type-div">
+                <select name="type" id="type-2">
+                    <option value="fire">Fire</option>
+                    <option value="water">Water</option>
+                    <option value="wind">Wind</option>
+                </select>
+            </div>
+            <div class="creature">
+                <img src="./478.png" alt="codemon1">
+            </div>
+            <div class="name">Codemon 2</div>
+            <div class="hp">HP: <span id="hp-2">100</span></div>
+            <div class="attack">
+                <input type="number" id="attack-2" value="10" min="0" max="15">
+            </div>
+        </div>
+    </div>
+    <div class="row"><button>ATTACK</button></div>
+</div>
+
+</body>
+</html>
