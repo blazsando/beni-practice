@@ -4,7 +4,7 @@ function attack(){
     const attackInput = document.querySelector(`#attack-${codemon}`);
     const attackStr = attackInput.value;
     const attack = parseInt(attackStr);
-    const hpSpan = document.querySelector(`#hp-${(codemon+1) % 3}`);
+    const hpSpan = document.querySelector(`#hp-${(codemon+1) % 2}+1`);
     const hpStr = hpSpan.innerHTML;
     const hp = parseInt(hpStr);
     hpSpan.innerHTML = Number(hp - attack).toString();
